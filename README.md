@@ -1,7 +1,7 @@
 # AI Support Backend & Dashboard
 
 ## Overview
-A portfolio-quality customer support platform built with **FastAPI**, **React**, **PostgreSQL**, and **Google Gemini AI**. 
+AI-powered customer support ticket management system built with **FastAPI**, **React**, **PostgreSQL**, and **Google Gemini AI**. 
 
 The platform provides a complete REST API and a modern SaaS dashboard for managing support tickets. It features AI-powered analysis that automatically categorizes, prioritizes, and evaluates the sentiment of support requests, alongside suggesting professional customer responses.
 
@@ -67,7 +67,6 @@ The AI integration leverages Google Gemini with strict Pydantic schemas. Instead
 
 **Testing & Infra:**
 - pytest + aiosqlite
-- Docker & Docker Compose
 
 ## Project Structure
 
@@ -88,7 +87,6 @@ The AI integration leverages Google Gemini with strict Pydantic schemas. Instead
 │   ├── tailwind.config.js
 │   └── vite.config.ts
 ├── tests/                # Pytest suites
-└── docker-compose.yml
 ```
 
 ## Setup Instructions
@@ -123,10 +121,7 @@ GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
 ### 4. Run PostgreSQL & Migrations
-Ensure PostgreSQL is running locally, or use Docker to start the database:
-```bash
-docker compose up db -d
-```
+Ensure PostgreSQL is running locally and the `support_db` database exists.
 Run Alembic migrations to create tables:
 ```bash
 alembic upgrade head
