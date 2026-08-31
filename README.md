@@ -180,19 +180,22 @@ pytest tests/ -v
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
-### Login
-<!-- Add Screenshot here: ![Login Screen](docs/login.png) -->
+### 🔐 Login
+![Login](docs/screenshots/Login.png)
 
-### Dashboard
-<!-- Add Screenshot here: ![Dashboard](docs/dashboard.png) -->
+### 📝 Register
+![Register](docs/screenshots/Register.png)
 
-### Ticket List
-<!-- Add Screenshot here: ![Ticket List](docs/ticket_list.png) -->
+### 📊 Dashboard
+![Dashboard](docs/screenshots/Dashboard.png)
 
-### Ticket Details & History
-<!-- Add Screenshot here: ![Ticket Details](docs/ticket_details.png) -->
+### 🎫 Tickets
+![Tickets](docs/screenshots/Tickets.png)
 
-### AI Analysis Results
-<!-- Add Screenshot here: ![AI Analysis](docs/ai_analysis.png) -->
+### ➕ Create Ticket
+![Create Ticket](docs/screenshots/Create-Ticket.png)
+
+### 🤖 Ticket Details & AI Analysis
+![Ticket Details](docs/screenshots/Ticket-Details.png)
